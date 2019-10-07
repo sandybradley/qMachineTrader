@@ -3,8 +3,8 @@
  * directory and files named with tickers, e.g. data/IBM.csv
 \
 
-\l ../../algo/qlearner.q
-\l ../../model/trading1.q
+\l qlearner.q
+\l trading1.q
 
 / local data directory
 .trading.datadir:"../../../data/";

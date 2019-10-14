@@ -20,7 +20,7 @@ Edit your api credentials in qMachineTrader.q. Ensure qMonitorBTCUSD has been ru
 
 The learner will iterate backtests to form a decision matrix based on the programmed bit-field states. This takes a while. After that, it will select the best performing matrix and apply it to current market conditions for automated trading. This project is entirely experimental. You are most likely to lose money.
 
-# Donate for development
+# Karma jar
 
 BTC - 112eMCQJUkUz7kvxDSFCGf1nnFJZ61CE4W
 

@@ -2,7 +2,7 @@
 
 //settings: apiHost,apiKey,apiSecret
 
-settings:`apiHost`apiKey`apiSecret!("www.bitmex.com";"QgULJBmPxcDYWtcqDCREHiBR";"6a1zglZ9iOOc7Vx6kZHXzGz4pqEYWGS1T8f6oWSLnBPqsM28");   //testnet
+settings:`apiHost`apiKey`apiSecret!("www.bitmex.com";"api-key";"api-secret");   //testnet
 
 ///0.common functions
 \l cryptoq_binary.q
@@ -17,7 +17,7 @@ hmacsha256:{[k;m].cryptoq.hmac_sha256[string k;string m]};
 urlencode:{$[x like "*[?]*";$[x like "*=*";"&" sv{$[2=count x; "="sv(x 0;ssr[.h.hu x 1;"%??";upper]);x]}each "=" vs/: "&" vs x;x];x]}; 
 //qtime2unix .z.Z
 qtime2unix:{`long$8.64e4*10957+x};
-//signature["chNOOS4KvNXR_Xq4k4c9qsfoKWvnDecLATCRlcBwyKDYnWgO";"GET";"/api/v1/instrument";qtime2unix 2018.02.08T04:30:36;""]   / c7682d435d0cfe87c16098df34ef2eb5a549d4c5a3c2b1f0f77b8af73423bf00
+
 signature:{[secret;verb;path;nonce;data]message:`$verb,path,string[nonce],data;:string hmacsha256[`$secret;message];};   
 
 //1.REST API (https://www.bitmex.com/app/restAPI)

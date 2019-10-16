@@ -4,7 +4,7 @@ Q Learning is a reinforcement learning method for incrementally estimating the o
 
 Word to the wise. Machine learning is only as smart as it's designer and can only be optimised for historic events. Moreover, it can never harness human intuition, product integrity or longevity. I would use this only for guidance.
 
-This script is designed to be used in conjunction with qMonitorBTCUSD (https://github.com/sandybradley/qMonitor/blob/master/qmonitorBTCUSD.q). That needs to be running for a while to get some meaningful backtest learning. Automated trading takes place on Bitmex.
+This script is designed to be used in conjunction with qMonitor (https://github.com/sandybradley/qMonitor/blob/master/qmonitor.q). That needs to be running for a while to get some meaningful backtest learning. Automated trading takes place on Bitmex.
 
 # Pre-requisites
 

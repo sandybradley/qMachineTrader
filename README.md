@@ -8,9 +8,9 @@ This script is designed to be used in conjunction with qMonitor (https://github.
 
 # Pre-requisites
 
-KDB+ (https://kx.com/connect-with-us/download/)
+[KDB+](https://kx.com/connect-with-us/download/)
 
-Bitmex account https://www.bitmex.com/register/L6zctF
+[Bitmex account](https://www.bitmex.com/register/L6zctF)
 
 # Run learning and start automated trading
 
@@ -38,12 +38,10 @@ EOS - binancecleos Memo: 103117718
 
 # Recommended links
 
-Getting started - Coinbase - https://www.coinbase.com/join/bradle_6r
+Getting started - [Coinbase](https://www.coinbase.com/join/bradle_6r)
 
-Portfolio balance - Binance - www.binance.com/en/register?ref=LTUMGDDC
+Portfolio balance - [Binance](https://www.binance.com/en/register?ref=LTUMGDDC)
 
-Futures trading - Deribit - https://www.deribit.com/reg-8106.6912
+Futures trading - [Deribit](https://www.deribit.com/reg-8106.6912)
 
-Cold wallet - https://atomicWallet.io?kid=12GR52 (promo 12GR52) - https://hodler.tech/
-
-Learn to earn (coinbase users) - Stellar - https://coinbase.com/earn/xlm/invite/vps5dfzt - EOS - https://coinbase.com/earn/eos/invite/xdbgswqk
+Cold wallet - [Atomic](https://atomicWallet.io?kid=12GR52)
